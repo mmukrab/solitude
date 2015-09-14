@@ -1,0 +1,29 @@
+/*
+@font-face{
+}
+*/
+
+.container{
+  margin: 0 auto;
+}
+
+body {
+  background-color: #fffde4;
+}
+
+header{
+  width: 762px;
+  height: 418px;
+  background-image: url("../img/headBg.jpg");
+}
+
+.logo {
+  color: #888888;
+  font-size: 72px;
+  position: absolute ;
+}
+
+
+.links li{
+  border-top: 1px dotted #888888;
+}
