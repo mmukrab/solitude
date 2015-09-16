@@ -4,7 +4,8 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, minimum-scale=1.0">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-        <!--<link type="text/css" rel="stylesheet" href="css/style.css">-->
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/style.css">
         <title>Solitude</title>
     </head>
     <body>
@@ -16,99 +17,103 @@
 
         <div class="container">
 
-        <section>
-            <h1>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet consectetur adipisci velit..."</h1>
-        </section>
+          <section class="title">
+              <h1>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet consectetur adipisci velit..."</h1>
+          </section>
 
-        <section>
-          <h2>Somelines About Us</h2>
-          <article class="row" id="intro">
-            <h3>Itrices inh endrerit ac tempor idtellus uis quam uisque</h3>
-            <p><b>Lorem ipsum dolor sit amet, consecteture adipiscing elit Nulla libero leo, suscipit acfaucibusnon.</b></p>
-            <p>Etiam est. Etiam ac ipsum sed pede ultricies pretium. Nulla mi lacus, fringilla eu, pulvinar at, commodo eu, dolor. Nam porttitor viverra sapien. Pellentesque vitae augue et lorem laoreet.</p>
-            <button><span><i class="fa fa-calendar">&nbsp</i></span> Saturday, April, 2008 </button><button><span><i class="fa fa-pencil-square-o">&nbsp</i></span><b>Read More</b></button>
-          </article><!-- end of class="intro" -->
-          <article class="row" id="spectrum">
-            <h3>Our Spectrum of Services</h3>
-              <section class="column-one-third">
-                <div>
-                  <img src="https://placeholdit.imgix.net/~text?txtsize=11&txt=120%C3%97100&w=120&h=100"/>
+          <section><!--start of left side -->
+            <section class="main-content">
+              <article class="row" id="intro">
+              <h2>Somelines About Us</h2>
+                <h3 class="exception">Itrices inh endrerit ac tempor idtellus uis quam uisque</h3>
+                <p><strong>Lorem ipsum dolor sit amet, consecteture adipiscing elit Nulla libero leo, suscipit acfaucibusnon.</strong></br>
+                Etiam est. Etiam ac ipsum sed pede ultricies pretium. Nulla mi lacus, fringilla eu, pulvinar at, commodo eu, dolor. Nam porttitor viverra sapien. Pellentesque vitae augue et lorem laoreet.</p>
+                <span class="bar"><button><span class=><i class="fa fa-calendar">&nbsp</i></span> Saturday, April, 2008 </button><button><span><i class="fa fa-pencil-square-o">&nbsp</i></span><b>Read More</b></button></span>
+              </article><!-- end of class="intro" -->
+              <article class="row" id="spectrum">
+                <h3>Our Spectrum of Services</h3>
+                  <section class="fancy-frame column-one-third">
+                    <div>
+                      <img class="photo fancy" src="http://placehold.it/120x100"/>
+                    </div>
+                    <div class="subscript">
+                      <a href="http://www.redhotminute.com">Cras utpris duis at sapien eget nulla vulputate.</a>
+                    </div>
+                  </section>
+                  <section class="column-two-thirds">
+                    <p><b>Donec accumsan porta risus.</b>Vestibulum sollicitudinlibero ut semper commodo, purus enim sollicitudin nulla, dictum vehicula diam lacus at purus. In egestas.</p>
+                  </section>
+                  <section class="column-two-thirds">
+                    <h4>Services</h4>
+                    <ul class"list-services">
+                      <li><a href="#"><span><i class="fa fa-search-plus">&nbsp</i></span>Nam congue quam non augue ivamus porttitor</a></li>
+                      <li><a href="#"><span><i class="fa fa-search-plus">&nbsp</i></span>Jam aongue buam n augue famus</a></li>
+                    </ul>
+                  </section>
+                  <section class="column-two-thirds">
+                    <p><b>Pellentesque dolor. </b>Nunc congue est in ante mattis ultrices. Liquam erat volutpat. Nam congue quam non augue</p>
+                  </section>
+              </article><!-- end of id="spectrum" -->
+              <section class="row" id="testimonial">
+                <h3>Testimonial</h3>
+                  <blockquote>
+                    Nullam vel justo. Mauris viverra mattis neque. Phasellus feugiat pede ut mauris uis orcies tibulum
+                    eleifend. Donec est purusiaculis acauctor. Nullum vel justo. Mauris viverra mattis neque. Phasellus feugiat pede ut mauris. Duis orci.
+                    <p><span><a href=""><i class="fa fa-pencil-square-o">&nbsp</i></a></span>by <cite>David Jackson</cite></p>
+                  </blockquote>
+                  <blockquote>
+                    Vel justo. Mauris viverra mattis neque asellus feugiat pede ut mauris uis orcies tibulum
+                    eleifend. Donec est purusiaculis acauctor. Nullum vel justo. Mauris viverra mattis neque. Phasellus feugiat pede ut mauris.
+                    <p><span><a href=""><i class="fa fa-pencil-square-o">&nbsp</i></a></span>by <cite>Tom Sam</cite></p>
+                  </blockquote>
+              </section><!-- end of id="testimonial" -->
+            </section><!-- end of main-content -->
+            <section class="sidebar"><!-- start of sidebar -->
+              <section class="row" id="photostock">
+                <h3>Photo Stock</h3>
+                <div class="photo-frame">
+                  <img class="photo" src="http://placehold.it/320x64"/>
+                  <div class="enlarge"><button><span><i class="fa fa-search-plus">&nbsp</i></span>view large</button></div>
                 </div>
-                <div>
-                  <a href="http://www.redhotminute.com">Cras utpris duis at sapien eget nulla vulputate.</a>
+                <div class="photo-frame">
+                  <img class="photo" src="http://placehold.it/320x64"/>
+                  <div class="enlarge"><button><span><i class="fa fa-search-plus">&nbsp</i></span>view large</button></div>
                 </div>
-              </section>
-              <section class="column-two-thirds">
-                <p><b>Donec accumsan porta risus.</b>Vestibulum sollicitudinlibero ut semper commodo, purus enim sollicitudin nulla, dictum vehicula diam lacus at purus. In egestas.</p>
-              </section>
-              <section class="column-two-thirds">
-                <h4>Services</h4>
-                <ul>
-                  <li><a href="#"><span><i class="fa fa-search-plus">&nbsp</i></span>Nam congue quam non augue ivamus porttitor</a></li>
-                  <li><a href="#"><span><i class="fa fa-search-plus">&nbsp</i></span>Jam aongue buam n augue famus</a></li>
+                <div class="photo-frame">
+                  <img class="photo" src="http://placehold.it/320x64"/>
+                  <div class="enlarge"><button><span><i class="fa fa-search-plus">&nbsp</i></span>view large</button></div>
+                </div>
+              </section><!-- end of id="photostock" -->
+              <section class="row" id="quick-contact">
+                <h3>Quick Contact</h3>
+                <form action="" method="POST">
+                  <div><label for="quick-contact-name">Name</label>
+                    <input type="text" name="quick-contact-name" value="" placeholder="- enter your name -"/>
+                  </div>
+                  <div><label for="quick-contact-email">Email</label>
+                    <input type="text" name="quick-contact-email" value="" placeholder="- enter your email -"/>
+                  </div>
+                  <div id="quick-contact-buttons">
+                    <button>Need a Quote?</button><button>Submit</button>
+                  </div>
+                </form>
+              </section><!-- end of id="quick-contact" -->
+              <section class="row" id="project-links">
+                <h3>Project Links</h3>
+                <ul class="list-links">
+                  <li><a href="#">Lorem ipsum dolor siet amet eros consequat</a></li>
+                  <li><a href="#">Consectetuer adipiscing elit</a></li>
+                  <li><a href="#">Etiam quies est ut diam viverra rhoncus</a></li>
+                  <li><a href="#">Fusce eros consequat</a></li>
+                  <li><a href="#">Cras eros massa blandit</a></li>
+                  <li><a href="#">Aoreet utdiam viverra</a></li>
                 </ul>
-              </section>
-              <section class="column-two-thirds">
-                <p><b>Pellentesque dolor. </b>Nunc congue est in ante mattis ultrices. Liquam erat volutpat. Nam congue quam non augue</p>
-              </section>
-          </article><!-- end of id="spectrum" -->
-          <section class="row" id="testimonial">
-            <h3>Testimonial</h3>
-              <blockquote>
-                <b>Nullam vel justo. Mauris viverra mattis neque. Phasellus feugiat pede ut mauris uis orcies tibulum</b>
-                eleifend. Donec est purusiaculis acauctorNullum vel justo. Mauris viverra mattis neque. Phasellus feugiat pede ut mauris. Duis orci.
-                <p><span><a href=""><i class="fa fa-pencil-square-o">&nbsp</i></a></span>by <cite>David Jackson</cite></p>
-              </blockquote>
-              <blockquote>
-                <b>Vel justo. Mauris viverra mattis neque asellus feugiat pede ut mauris uis orcies tibulum</b>
-                eleifend. Donec est purusiaculis acauctorNullum vel justo. Mauris viverra mattis neque. Phasellus feugiat pede ut mauris.
-                <p><span><a href=""><i class="fa fa-pencil-square-o">&nbsp</i></a></span>by <cite>Tom Sam</cite></p>
-              </blockquote>
-          </section><!-- end of id="testimonial" -->
-          <section><!-- start of side -->
-            <section class="row" id="photostock">
-              <h3>Photo Stock</h3>
-              <div>
-                <img src="https://placeholdit.imgix.net/~text?txtsize=16&txt=320%C3%9764&w=320&h=64"/>
-                <button><span><i class="fa fa-search-plus">&nbsp</i></span>view large</button>
-              </div>
-              <div>
-                <img src="https://placeholdit.imgix.net/~text?txtsize=16&txt=320%C3%9764&w=320&h=64"/>
-                <button><span><i class="fa fa-search-plus">&nbsp</i></span>view large</button>
-              </div>
-              <div>
-                <img src="https://placeholdit.imgix.net/~text?txtsize=16&txt=320%C3%9764&w=320&h=64"/>
-                <button><span><i class="fa fa-search-plus">&nbsp</i></span>view large</button>
-              </div>
-            </section><!-- end of id="photostock" -->
-            <section class="row" id="quick-contact">
-              <h3>Quick Contact</h3>
-              <form action="" method="POST">
-                <div><label for="quick-contact-name">Name</label>
-                  <input type="text" name="quick-contact-name" value="" placeholder="- enter your name -"/>
-                </div>
-                <div><label for="quick-contact-email">Email</label>
-                  <input type="text" name="quick-contact-email" value="" placeholder="- enter your email -"/>
-                </div>
-                <button>Need a Quote?</button><button>Submit</button>
-              </form>
-            </section><!-- end of id="quick-contact" -->
-            <section class="row" id="project-links">
-              <h3>Project Links</h3>
-              <ul class="links">
-                <li><a href="#"><strong>Lorem ipsum dolor siet amet eros consequat</strong></a></li>
-                <li><a href="#">Consectetuer adipiscing elit</a></li>
-                <li><a href="#">Etiam quies est ut diam viverra rhoncus</a></li>
-                <li><a href="#">Fusce eros consequat</a></li>
-                <li><a href="#">Cras eros massa blandit</a></li>
-                <li><a href="#">Aoreet utdiam viverra</a></li>
-              </ul>
-            </section><!-- end of id="project-links" -->
-          </section><!-- end of side section-->
+              </section><!-- end of id="project-links" -->
+            </section><!-- end of side section-->
         </section>
         <nav class="main-nav">
           <ul>
-            <li><a href=#>Home</a></li>
+            <li class-"active"><a href=#>Home</a></li>
             <li><a href=#>About Us</a></li>
             <li><a href=#>Support</a></li>
             <li><a href=#>Forum</a></li>
@@ -123,27 +128,33 @@
               <input type="text" name="username" value="" placeholder="User Name"/>
               <input type="text" name="password" value="" placeholder="Password"/>
             </div>
-            <div>Not yet a Member?<b><a href="#register">Register Now</a></b><button>Login</button></div>
+            <div>Not yet a Member?&nbsp<b><a href="#register">Register Now</a></b><button>Login</button></div>
           </form>
         </section><!-- end of class="user-login" -->
 
       </div><!-- end of .container-->
 
         <footer>
-          <nav class="footer-nav">
-            <ul>
-              <li><a href=#>Home</a></li>
-              <li><a href=#>About Us</a></li>
-              <li><a href=#>Support</a></li>
-              <li><a href=#>Forum</a></li>
-              <li><a href=#>Development</a></li>
-              <li><a href=#>Contact Us</a></li>
+          <div>
+            <nav class="footer-nav">
+              <ul>
+                <li><a href=#>Home</a></li>
+                <li><a href=#>About Us</a></li>
+                <li><a href=#>Support</a></li>
+                <li><a href=#>Forum</a></li>
+                <li><a href=#>Development</a></li>
+                <li><a href=#>Contact Us</a></li>
+              </ul>
+            </nav><!-- end of class="footer-nav" -->
+            <div>
+              &#64 Copyright Information Goes Here. All Rights Reserved</br>
+              <b>Design by:</b><a href="http://www.templateworld.com" target="_blank">Templateworld</a>
+            </div>
+            <ul class="format-buttons">
+              <li><button>xhtml</button></li>
+              <li><button>css</button></li>
             </ul>
-          </nav><!-- end of class="footer-nav" -->
-          <div>&#64 Copyright Information Goes Here. All Rights Reserved</div>
-          <div><b>Design by:</b><a href="http://www.templateworld.com" target="_blank">Templateworld</a></div>
-          <button>xhtml</button>
-          <button>css</button>
+          </div>
         </footer>
     </body>
 </html>
